@@ -1,5 +1,4 @@
-@media screen and (max-width: 375px) {
-  .img1 {
+  .logo {
     position: absolute;
     width: 111px;
     height: 74px;
@@ -7,7 +6,7 @@
     top: 0;
   }
 
-  .img2 {
+  .hamburger {
     position: absolute;
     width: 20px;
     height: 14px;
@@ -31,7 +30,7 @@
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: 400px;
-    font-size: 55px;
+    font-size: 50px;
     line-height: 100%;
   }
 
@@ -40,7 +39,7 @@
     width: 288px;
     height: 147px;
     left: 30px;
-    top: 225px;
+    top: 220px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -79,7 +78,7 @@
     width: 288px;
     height: 50px;
     left: 16px;
-    top: 395px;
+    top: 385px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -89,4 +88,3 @@
     color: #fff;
     background: #1a2236;
   }
-}
