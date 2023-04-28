@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .logo {
   position: absolute;
   width: 111px;
@@ -10,7 +16,7 @@
   position: absolute;
   width: 20px;
   height: 14px;
-  left: 330px;
+  left: 282px;
   top: 19px;
 }
 
@@ -18,15 +24,15 @@
   position: absolute;
   width: 288px;
   height: 336px;
-  left: 16px;
+  left: -10px;
 }
 
-h1 {
+.name h1 {
   position: absolute;
   width: 220px;
   height: 100px;
   left: 28px;
-  top: 70px;
+  top: 90px;
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 400px;
@@ -34,7 +40,7 @@ h1 {
   line-height: 100%;
 }
 
-p {
+.name p {
   position: absolute;
   width: 288px;
   height: 147px;
@@ -66,7 +72,7 @@ h6 {
 
 .button {
   position: absolute;
-  left: 5.03%;
+  left: 4.2%;
   right: 4.4%;
   top: 8.07%;
   bottom: 90.9%;
@@ -87,4 +93,271 @@ h6 {
   text-align: center;
   color: #fff;
   background: #1a2236;
+}
+
+.pro {
+  position: absolute;
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 672px;
+  bottom: 150px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  margin-top: 30px;
+  color: #1a2236;
+}
+
+.proLogo {
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  left: 0;
+  top: 472px;
+  margin: 25px 0 25px 0;
+}
+
+.work-list {
+  padding-top: 50px;
+}
+
+.project-card {
+  position: absolute;
+  width: 320px;
+  height: 186px;
+  left: 0;
+  top: 780px;
+}
+
+.project-img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  max-width: 550px;
+}
+
+.project-info {
+  /* background: #1A2236;
+   */
+  background-color: #1a2236;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.project-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  margin: 0 5% 16px;
+  padding-top: 20px;
+  color: white;
+}
+
+.tech-list {
+  display: flex;
+  margin: 0 5% 20px;
+}
+
+.tech-list li {
+  align-items: center;
+  background-color: #98dede;
+  color: #1a2236;
+  display: flex;
+  font-family: poppins, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  justify-content: center;
+  line-height: 10px;
+  margin-right: 10px;
+  padding: 6px;
+}
+
+.project-btn-container {
+  display: flex;
+  margin: 0 5%;
+}
+
+.project-btn {
+  align-items: center;
+  background-color: #1a2236;
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  height: 44px;
+  line-height: 24px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  width: 185px;
+}
+
+.project2 .project-card {
+  position: absolute;
+  width: 320px;
+  height: 342px;
+  left: 0;
+  top: 1126px;
+}
+
+.project3 .project-card {
+  position: absolute;
+  width: 320px;
+  height: 342px;
+  left: 0;
+  top: 1468px;
+}
+
+.project4 .project-card {
+  position: absolute;
+  width: 320px;
+  height: 342px;
+  left: 0;
+  top: 1810px;
+}
+
+.project5 .project-card {
+  position: absolute;
+  width: 320px;
+  height: 342px;
+  left: 0;
+  top: 2152px;
+}
+
+.project6 .project-card {
+  position: absolute;
+  width: 320px;
+  height: 342px;
+  left: 0;
+  top: 2494px;
+}
+
+.about-title {
+  position: absolute;
+  width: 290px;
+  height: 1171px;
+  left: 15px;
+  top: 2902px;
+  padding-bottom: 50px;
+}
+
+#about {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1a2236;
+}
+
+.body-btn {
+  align-items: center;
+  background-color: #1a2236;
+  border: 1px solid #1a2236;
+  color: #fff;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 25px 5%;
+  height: 50px;
+}
+
+.body-btn a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.body-btn img {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.about-lists {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3200px;
+  display: flex;
+  flex-flow: column;
+  gap: 18px;
+}
+
+.languages {
+  padding: 50px 40px 80px 40px;
+  background-color: #215690;
+}
+
+.languages img {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 187px;
+  top: 165px;
+}
+
+.frameworks {
+  padding: 50px 40px 80px 40px;
+  background-color: #ce4e59;
+}
+
+.frameworks img {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 187px;
+  top: 450px;
+}
+
+.skills {
+  padding: 50px 40px 70px 40px;
+  background-color: #febf52;
+}
+
+.skills img {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 187px;
+  top: 785px;
+}
+
+.about-lists h3 {
+  margin-right: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.about-lists li {
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
 }
