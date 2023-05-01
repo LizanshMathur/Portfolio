@@ -167,15 +167,15 @@ h6 {
   align-items: center;
   background-color: #98dede;
   color: #1a2236;
-  display: flex;
-  font-family: poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 300;
-  justify-content: center;
   line-height: 10px;
   margin-right: 10px;
   padding: 6px;
+  float:right;
+  list-style: none;
 }
 
 .project-btn-container {
