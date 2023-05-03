@@ -32,7 +32,7 @@
   height: 100px;
   left: 28px;
   top: 90px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 50px;
@@ -45,7 +45,7 @@
   height: 147px;
   left: 30px;
   top: 220px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -60,7 +60,7 @@ h6 {
   height: 26.47px;
   left: 58px;
   top: 402px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 50px;
@@ -69,29 +69,31 @@ h6 {
   color: #fff;
 }
 
-.button {
-  position: absolute;
-  left: 4.2%;
-  right: 4.4%;
-  top: 8.07%;
-  bottom: 90.9%;
-}
-
 .rectangle {
-  box-sizing: border-box;
-  position: absolute;
-  width: 288px;
-  height: 50px;
-  left: 16px;
-  top: 385px;
-  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  background-color: #1a2236;
+  border: 1px solid #1a2236;
+  color: #fff;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  gap: 15px;
+  height: 50px;
+  justify-content: center;
   line-height: 24px;
+  margin: 380px 14.39% 14.391% 14.321%;
+  max-width: 400px;
   text-align: center;
-  color: #fff;
-  background: #1a2236;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  width: 90%;
+}
+
+.rectangle:hover {
+  color: #1a2236;
+  background-color: #fff;
 }
 
 .pro {
@@ -101,7 +103,7 @@ h6 {
   left: 16px;
   top: 672px;
   bottom: 150px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -147,7 +149,7 @@ h6 {
 }
 
 .project-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -166,7 +168,7 @@ h6 {
   align-items: center;
   background-color: #98dede;
   color: #1a2236;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 300;
@@ -188,7 +190,7 @@ h6 {
   border: 1px solid #fff;
   color: #fff;
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -251,7 +253,7 @@ h6 {
 }
 
 #about {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -260,7 +262,7 @@ h6 {
 }
 
 .about-me {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -274,7 +276,7 @@ h6 {
   border: 1px solid #1a2236;
   color: #fff;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 25px 5%;
   height: 50px;
 }
@@ -342,7 +344,7 @@ h6 {
 
 .about-lists h3 {
   margin-right: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -352,11 +354,151 @@ h6 {
 
 .about-lists li {
   margin-left: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: -0.0525em;
+  color: #fff;
+}
+
+.contact {
+  position: absolute;
+  width: 320px;
+  height: 775px;
+  left: -2px;
+  top: 4120px;
+}
+
+.contact-form {
+  position: absolute;
+  width: 320px;
+  height: 775px;
+  left: 20px;
+  top: 15%;
+}
+
+#contact {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.contact-form p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  margin: 5% 0 3% 0;
+  padding-right: 4%;
+  color: #1a2236;
+}
+
+form {
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  margin-top: 32px;
+  margin-right: 10%;
+  gap: 10px;
+}
+
+.name-label p {
+  font-size: 70%;
+  padding-left: 5%;
+  padding-bottom: -2px;
+}
+
+label {
+  background-color: #fff;
+  border: 1px solid #5f5c5c;
+  color: #7d7c84;
+  font-size: 80%;
+  margin: 1% auto;
+  max-width: 500px;
+  padding: 8px;
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  border-radius: 3%;
+}
+
+label input {
+  border: none;
+  margin: 5%;
+  text-align: justify;
+}
+
+textarea {
+  border: none;
+}
+
+.contact-btn {
+  align-items: center;
+  background-color: #1a2236;
+  border: 1px solid #1a2236;
+  color: #fff;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  gap: 15px;
+  height: 50px;
+  justify-content: center;
+  line-height: 24px;
+  margin: 5% 5%;
+  max-width: 400px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  width: 90%;
+}
+
+.contact-btn:hover {
+  color: #1a2236;
+  background-color: #fff;
+}
+
+footer {
+  font-size: 20px;
+  background-color: #1a2236;
+  position: absolute;
+  width: 320px;
+  height: 140px;
+  left: 0;
+  top: 4950px;
+}
+
+.resume-lin {
+  align-items: center;
+  color: #98dede;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  height: 30px;
+  text-decoration: none;
+  transition: 0.2s;
+  width: fit-content;
+  margin: 5% 0 10% 20%;
+}
+
+.social-media-list {
+  display: flex;
+  list-style: none;
+  margin: 0 5%;
+  justify-content: space-between;
+  font-size: 130%;
+}
+
+.social-media-list i {
   color: #fff;
 }
