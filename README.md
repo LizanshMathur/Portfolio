@@ -30,8 +30,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio <a name="Greet Microverse"></a>
-
 # 📖 Portfolio <a name="about-project"></a>
 
 This is my project Portfolio i created it using HTML, CSS.
