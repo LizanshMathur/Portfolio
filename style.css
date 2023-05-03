@@ -6,24 +6,32 @@
 
 .logo {
   position: absolute;
-  width: 111px;
-  height: 74px;
+  width: 120px;
+  height: 80px;
   left: -2px;
 }
 
 .hamburger {
   position: absolute;
-  width: 20px;
+
+  /* width: 20px;
   height: 14px;
   left: 282px;
-  top: 19px;
+  top: 19px; */
+  width: 1.5em;
+  height: 1em;
+  left: 19.625em;
+  top: 1.1875em;
 }
 
 .name {
-  position: absolute;
+  /* position: absolute;
   width: 288px;
   height: 336px;
-  left: -10px;
+  left: -10px; */
+  width: 375px;
+  height: 21em;
+  left: -0.625em;
 }
 
 .name h1 {
@@ -83,12 +91,12 @@ h6 {
   height: 50px;
   justify-content: center;
   line-height: 24px;
-  margin: 380px 14.39% 14.391% 14.321%;
+  margin: 380px 14.39% 14.391% 10.321%;
   max-width: 400px;
   text-align: center;
   text-decoration: none;
   transition-duration: 0.2s;
-  width: 90%;
+  width: 80%;
 }
 
 .rectangle:hover {
@@ -101,7 +109,7 @@ h6 {
   width: 181px;
   height: 50px;
   left: 16px;
-  top: 672px;
+  top: 660px;
   bottom: 150px;
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
@@ -114,23 +122,23 @@ h6 {
 
 .proLogo {
   position: absolute;
-  width: 320px;
-  height: 160px;
+  width: 375px;
+  height: 180px;
   left: 0;
-  top: 472px;
+  top: 460px;
   margin: 25px 0 25px 0;
 }
 
 .work-list {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .project-card {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 186px;
   left: 0;
-  top: 780px;
+  top: 760px;
 }
 
 .project-img {
@@ -205,50 +213,50 @@ h6 {
 
 .project2 .project-card {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 342px;
   left: 0;
-  top: 1126px;
+  top: 1140px;
 }
 
 .project3 .project-card {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 342px;
   left: 0;
-  top: 1468px;
+  top: 1520px;
 }
 
 .project4 .project-card {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 342px;
   left: 0;
-  top: 1810px;
+  top: 1900px;
 }
 
 .project5 .project-card {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 342px;
   left: 0;
-  top: 2152px;
+  top: 2275px;
 }
 
 .project6 .project-card {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 342px;
   left: 0;
-  top: 2494px;
+  top: 2694px;
 }
 
 .about-title {
   position: absolute;
-  width: 290px;
+  width: 350px;
   height: 1171px;
   left: 15px;
-  top: 2902px;
+  top: 3132px;
   padding-bottom: 50px;
 }
 
@@ -256,7 +264,7 @@ h6 {
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 100%;
   margin-bottom: 20px;
 }
@@ -265,7 +273,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   color: #1a2236;
 }
@@ -277,7 +285,7 @@ h6 {
   color: #fff;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  margin: 25px 5%;
+  margin: 30px 5%;
   height: 50px;
 }
 
@@ -294,17 +302,17 @@ h6 {
 
 .about-lists {
   position: absolute;
-  width: 289px;
-  height: 289px;
-  left: 16px;
-  top: 3200px;
+  width: 325px;
+  height: 298px;
+  left: 25px;
+  top: 3460px;
   display: flex;
   flex-flow: column;
   gap: 18px;
 }
 
 .languages {
-  padding: 50px 40px 80px 40px;
+  padding: 50px 40px 90px 40px;
   background-color: #215690;
 }
 
@@ -312,12 +320,12 @@ h6 {
   position: absolute;
   width: 102px;
   height: 102px;
-  left: 187px;
-  top: 165px;
+  left: 222px;
+  top: 175px;
 }
 
 .frameworks {
-  padding: 50px 40px 80px 40px;
+  padding: 50px 40px 90px 40px;
   background-color: #ce4e59;
 }
 
@@ -325,12 +333,12 @@ h6 {
   position: absolute;
   width: 102px;
   height: 102px;
-  left: 187px;
-  top: 450px;
+  left: 220px;
+  top: 472px;
 }
 
 .skills {
-  padding: 50px 40px 70px 40px;
+  padding: 50px 40px 80px 40px;
   background-color: #febf52;
 }
 
@@ -338,7 +346,7 @@ h6 {
   position: absolute;
   width: 102px;
   height: 102px;
-  left: 187px;
+  left: 220px;
   top: 785px;
 }
 
@@ -365,15 +373,15 @@ h6 {
 
 .contact {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 775px;
   left: -2px;
-  top: 4120px;
+  top: 4400px;
 }
 
 .contact-form {
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 775px;
   left: 20px;
   top: 15%;
@@ -470,10 +478,10 @@ footer {
   font-size: 20px;
   background-color: #1a2236;
   position: absolute;
-  width: 320px;
+  width: 375px;
   height: 140px;
   left: 0;
-  top: 4950px;
+  top: 5250px;
 }
 
 .resume-lin {
