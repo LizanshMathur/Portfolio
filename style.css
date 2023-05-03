@@ -69,29 +69,31 @@ h6 {
   color: #fff;
 }
 
-.button {
-  position: absolute;
-  left: 4.2%;
-  right: 4.4%;
-  top: 8.07%;
-  bottom: 90.9%;
-}
-
 .rectangle {
-  box-sizing: border-box;
-  position: absolute;
-  width: 288px;
-  height: 50px;
-  left: 16px;
-  top: 385px;
+  align-items: center;
+  background-color: #1a2236;
+  border: 1px solid #1a2236;
+  color: #fff;
+  display: flex;
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  gap: 15px;
+  height: 50px;
+  justify-content: center;
   line-height: 24px;
+  margin: 380px 14.39% 14.391% 14.321%;
+  max-width: 400px;
   text-align: center;
-  color: #fff;
-  background: #1a2236;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  width: 90%;
+}
+
+.rectangle:hover {
+  color: #1a2236;
+  background-color:#fff;
 }
 
 .pro {
@@ -457,6 +459,11 @@ textarea {
   text-decoration: none;
   transition-duration: 0.2s;
   width: 90%;
+}
+
+.contact-btn:hover {
+  color: #1a2236;
+  background-color:#fff;
 }
 
 footer {
