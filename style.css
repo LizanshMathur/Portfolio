@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
 html {
@@ -234,8 +233,8 @@ h6 {
 
 .project-btn:hover {
   background-color: #fff;
-  color: #1A2236;
-} 
+  color: #1a2236;
+}
 
 #about-myself {
   display: block;
@@ -657,9 +656,11 @@ footer {
     width: 100%;
   }
 
-  .project-img:hover~.project-info, .project-info:focus-within, .project-info:hover {
+  .project-info:focus-within,
+  .project-info:hover,
+  .project-img:hover ~ .project-info {
     transform: translateY(-100%);
-}
+  }
 
   .project1 .project-info h3,
   .project3 .project-info h3 {
@@ -890,7 +891,6 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
- 
   .proLogo {
     display: none;
   }
@@ -1011,7 +1011,6 @@ footer {
     position: relative;
   }
 
- 
   .project-info {
     background-color: #1a2236f9;
     display: flex;
@@ -1025,10 +1024,11 @@ footer {
     width: 100%;
   }
 
-  .project-img:hover~.project-info, .project-info:focus-within, .project-info:hover {
+  .project-info:focus-within,
+  .project-info:hover,
+  .project-img:hover ~ .project-info {
     transform: translateY(-100%);
-}
-
+  }
 
   .project1 .project-info h3,
   .project3 .project-info h3 {
