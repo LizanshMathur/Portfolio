@@ -19,19 +19,29 @@
 <body>
     <header>
             <navbar class="header">
-                <a href="">
-                    <img class="logo" src="./img/image_geometry_1.png" alt="">
-                </a>
-
-               <nav>
                    <img class="hamburger" src="./img/ic_menu.png" alt="">
-               </nav>
+                   <ul>
+                        <li>
+                            <a href="" class="nav-li">Hello</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-li">Project</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-li">About</a>
+                        </li>
+                        <li>
+                            <a href="" class="nav-li">Contact</a>
+                        </li>
+                   </ul>
             </navbar>
+            <img class="logo" src="./img/image_geometry_1.png" >
     </header>
 
-    <section >
+    <section class="hello">
         <div class="name">
-            <h1>Lizansh Mathur</h1>
+            <h1>Lizansh <br>
+                 Mathur</h1>
             
             <p>
                 Hello! I am a software developer! I can 
@@ -44,19 +54,19 @@
              </p>
                 <br>
                 
-                <div class="button">
                     <button class="rectangle">Start collaboration</button>
-                </div>
+            
             </div>
-               <img class="proLogo" src="./img/image_geometry_2.png" alt="Logo">
+            <img src="./img/image-geometry_1-1.png" class="banner"> 
+            <img src="./img/image_geometry_2.png" class="proLogo">
     </section>
         <br>
     <section id="work">
-        <div class="work-list">
-        <header class="work-header">
-            <h1 class="pro">Projects</h1>
-        </header>
-        <ul>       
+        
+        <ul class="work-list">     
+            <header class="work-header">
+                <h2 class="pro">Projects</h2>
+            </header>  
                 <li class="project1">
                    <article class="project-card">
                            <img src="./img/Rectangle 21.png" alt="Project-image" class="project-img">
@@ -69,13 +79,15 @@
                                                     <li>JavaScript</li>
                                             </ul>
                                             <div class="project-btn-container">
-                                                        <button type="button" class="project-btn">See this Project &nbsp; &nbsp; &nbsp;  <img src="./img/Union.png" alt=""></button>
+                                                        <button type="button" class="project-btn">See this Project &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
                                             </div>
                                 </div>
                    </article>
+                  
                </li> 
                <li class="project2">
                 <article class="project-card">
+                    
                     <img src="./img/Rectangle 21 (1).png" alt="Project-image" class="project-img">
 
                          <div class="project-info">
@@ -86,14 +98,16 @@
                                              <li>JavaScript</li>
                                      </ul>
                                      <div class="project-btn-container">
-                                                 <button type="button" class="project-btn">See this Project &nbsp; &nbsp; &nbsp;  <img src="./img/Union.png" alt=""></button>
+                                                 <button type="button" class="project-btn">See this Project &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
                                      </div>
                          </div>
             </article>
+            <img src="./img/image-geometry_2.svg" class="work-deco-2">
                </li> 
 
                <li class="project3">
                 <article class="project-card">
+                   
                     <img src="./img/Rectangle 21 (2).png" alt="Project-image" class="project-img">
 
                          <div class="project-info">
@@ -104,13 +118,17 @@
                                              <li>JavaScript</li>
                                      </ul>
                                      <div class="project-btn-container">
-                                                 <button type="button" class="project-btn">See this Project &nbsp; &nbsp; &nbsp;  <img src="./img/Union.png" alt=""></button>
+                                                 <button type="button" class="project-btn">See this Project &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
                                      </div>
                          </div>
             </article>
+            <img src="./img/Shape.png" class="work-deco-3">
                </li> 
 
                <li class="project4">
+                <div class="work-deco-4">
+                    <img src="./img/image-geometry_5.svg">
+            </div>
                 <article class="project-card">
                     <img src="./img/Rectangle 21 (3).png" alt="Project-image" class="project-img">
 
@@ -122,7 +140,7 @@
                                              <li>JavaScript</li>
                                      </ul>
                                      <div class="project-btn-container">
-                                                 <button type="button" class="project-btn">See this Project &nbsp; &nbsp; &nbsp;  <img src="./img/Union.png" alt=""></button>
+                                                 <button type="button" class="project-btn">See this Project &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
                                      </div>
                          </div>
             </article>
@@ -140,10 +158,11 @@
                                              <li>JavaScript</li>
                                      </ul>
                                      <div class="project-btn-container">
-                                                 <button type="button" class="project-btn">See this Project &nbsp; &nbsp; &nbsp;  <img src="./img/Union.png" alt=""></button>
+                                                 <button type="button" class="project-btn">See this Project &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
                                      </div>
                          </div>
             </article>
+            <img src="./img/Group 83.png" class="work-deco-5">
                </li> 
 
                <li class="project6">
@@ -158,27 +177,24 @@
                                              <li>JavaScript</li>
                                      </ul>
                                      <div class="project-btn-container">
-                                                 <button type="button" class="project-btn">See this Project &nbsp; &nbsp; &nbsp;  <img src="./img/Union.png" alt=""></button>
+                                                 <button type="button" class="project-btn">See this Project &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
                                      </div>
                          </div>
             </article>
                </li>
         </ul>
-    </div>
     </section>
 
-   <section class="about-myself">
+   <section id="about-myself">
             <header class="about-title">
                 <h2 id="about">About</h2>
                 <p class="about-me">
                     I can help you build a product , feature or website Look through some of my work and experience!
-                     If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                    If you like what you see and have a project you need coded, don’t hesitate to contact me.
                 </p>
-               <nav class="body-btn">
-                <a >Get my CV</a>
-                <img src="./img/ic_download.png" alt="">
-               </nav> 
+                <a class="body-btn">Get my CV <img src="./img/ic_download.png"  alt=""></a>  
             </header>
+
             <div class="about-lists">
                 <div class="languages">
                     <h3>Languages</h3>
@@ -187,7 +203,6 @@
                             <li>Ruby</li>
                             <li>HTML5</li>
                             <li>CSS3</li>
-                            <img src="./img/ic_languages_mob.png" alt="">
                         </ul>
             </div>
             <div class="frameworks">
@@ -197,7 +212,6 @@
                         <li>Ruby on Rails</li>
                         <li>RSpec</li>
                         <li>Capibara</li>
-                        <img src="./img/Group 18.png" alt="">
                     </ul>
             </div>
             <div class="skills">
@@ -208,43 +222,41 @@
                     <li>API Design</li>
                     <li>Version Control</li>
                     <li>Web Development</li>
-                    <img src="./img/ic_skills.png" alt="">
                 </ul>
             </div>
-            </div> 
-    </section>
+            <div class="about-deco"></div>
+        </div> 
+   </section>
+
     <section class="contact">
-        <img class="logo" src="./img/image_geometry_1.png" alt="Logo">
-        <div class="contact-form">
         <h2 id="contact">Get Started</h2>
         <p>I'm always interested in hearing
             about new projects, so if you'd like
              to chat please get in touch.</p>
-        <form action="https://formspree.io/f/xqkonpny" method="post">
-            <div class="name-label">
-                <p>Your name</p>
-                <label for="name">
+        <form action="https://formspree.io/f/xqkonpny" method="post" class="griding">
+            <div class="name-l">
+                <label for="name" class="name-email n">
+                    Your name
                     <input type="text" name="name" maxlength="30" placeholder="Enter your name" required>
                 </label>
             </div>
-            <div class="name-label">
-                <p>Your email</p>
-                <label for="email">
+            <div class="email-l">
+                <label for="email" class="name-email e">
+                    Your email
                     <input type="email" name="email" placeholder="Enter your email" required>
                 </label>
               </div>
-              <div class="name-label">
-                  <p> Your message</p>
-                    <label for="Message">
+              <div class=" message-label">
+                
+                    <label for="Message" class="msg-label">
+                        Your message
                         <textarea name="Message" id="message" placeholder="Enter your text here..." maxlength="500" cols="30" rows="10" >
                         </textarea>
                     </label>
                  </div>
             <button type="submit" class="contact-btn" >Start Collabortion</button>
         </form>
-    </div>
     </section>
-
     <footer>
         <a href="" class="resume-lin">Get my Resume &nbsp; <i class="fa-solid fa-up-right-from-square"></i></a>
         <ul class="social-media-list">
