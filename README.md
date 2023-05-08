@@ -38,7 +38,8 @@ This is my project Portfolio i created it using HTML, CSS.
 
 HTML
 CSS
-flexbox
+Flexbox
+Grid
 
 
 
@@ -56,6 +57,7 @@ Added Linters.yml
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://lizanshmathur.github.io/Portfolio/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
