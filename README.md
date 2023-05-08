@@ -30,8 +30,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Portfolio <a name="Greet Microverse"></a>
-
 # 📖 Portfolio <a name="about-project"></a>
 
 This is my project Portfolio i created it using HTML, CSS.
@@ -40,7 +38,8 @@ This is my project Portfolio i created it using HTML, CSS.
 
 HTML
 CSS
-flexbox
+Flexbox
+Grid
 
 
 
@@ -57,7 +56,8 @@ Added Linters.yml
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- Comeing Soon
+- [Live Demo Link](https://lizanshmathur.github.io/Portfolio/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,6 +74,7 @@ To get a local copy up and running, follow these steps.
 1- Code editor
 2- Web browser
 3- Git-scm
+4- Internet Connection
 
 
 ### Setup
@@ -120,6 +121,7 @@ open index.html using live server extension.
  [ ] Add Footer
  [ ] Styles
  [ ] Add projects and contact information
+ [ ] Add social media link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
