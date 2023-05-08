@@ -74,6 +74,7 @@ To get a local copy up and running, follow these steps.
 1- Code editor
 2- Web browser
 3- Git-scm
+4- Internet Connection
 
 
 ### Setup
