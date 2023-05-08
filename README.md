@@ -120,6 +120,7 @@ open index.html using live server extension.
  [ ] Add Footer
  [ ] Styles
  [ ] Add projects and contact information
+ [ ] Add social media link
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
