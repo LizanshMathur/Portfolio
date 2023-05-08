@@ -43,7 +43,7 @@ html {
   color: #1a2236;
   font-size: 16px;
   text-decoration: none;
-  transition: 0.2s;
+  transition-duration: .2s;
 }
 
 .logo {
@@ -534,9 +534,6 @@ footer {
   .banner {
     display: block;
     justify-self: flex-end;
-
-    /* max-width: 50vw;
-    min-height: 690px; */
     max-width: 46vw;
     min-height: 476px;
   }
@@ -778,8 +775,6 @@ footer {
 
   .contact {
     background-color: #f9f9fa;
-
-    /* padding-bottom: 182px; */
     background-image: url(./img/image-geometry_6.svg), url(./img/image-geometry_7.svg);
     background-repeat: no-repeat;
     background-position: 0 0, 100% 100%;
