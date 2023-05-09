@@ -294,10 +294,6 @@ h6 {
   width: 90%;
 }
 
-form div {
-  margin: 10%;
-}
-
 .about-lists div {
   font-family: 'poppins', sans-serif;
   font-style: normal;
@@ -389,8 +385,11 @@ form div {
   text-align: justify;
 }
 
-form {
+.griding {
   align-items: center;
+  display: flex;
+  flex-flow: column;
+  margin-top: 32px;
 }
 
 label {
@@ -417,6 +416,22 @@ textarea {
 
 textarea {
   height: 115px;
+}
+
+small {
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 10px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.alert {
+  background-color: #e2505c;
 }
 
 .contact-btn {
@@ -781,6 +796,11 @@ footer {
     background-size: 25%;
   }
 
+  label {
+    font-size: 14px;
+    max-width: 600px;
+  }
+
   #contact {
     text-align: center;
     font-size: 80px;
@@ -797,65 +817,8 @@ footer {
     margin: 0 15%;
   }
 
-  .contact-btn {
-    margin: 8% 60%;
-    font-size: 25px;
-    padding: 8%;
-  }
-
-  .griding {
-    display: grid;
-    width: 100%;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-
-  form div {
-    margin: 0;
-  }
-
-  form .message-label {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    width: 100%;
-    margin-left: 8%;
-  }
-
-  form .name-email {
-    margin: 0 36px;
-    max-width: none;
-    width: 30%;
-
-    /* display: grid; */
-
-    /* justify-content: center; */
-    position: absolute;
-
-    /* left: 13%; */
-
-    /* right: -3%; */
-  }
-
-  .n {
-    left: 13%;
-    display: block;
-  }
-
-  .e {
-    display: block;
-    right: 13%;
-  }
-
-  .msg-label {
-    margin: 0% 10%;
-  }
-
-  .message-label p {
-    text-align: left;
-    margin: 0 10%;
+  small {
+    width: 50%;
   }
 
   footer {
@@ -1141,19 +1104,10 @@ footer {
 
   .contact {
     background-color: #f9f9fa;
-
-    /* padding-bottom: 182px; */
     background-image: url(./img/image-geometry_6.svg), url(./img/image-geometry_7.svg);
     background-repeat: no-repeat;
     background-position: 0 0, 100% 100%;
     background-size: 25%;
-  }
-
-  .contact-deco {
-    bottom: 0;
-    display: block;
-    position: absolute;
-    right: 0;
   }
 
   #contact {
@@ -1164,7 +1118,7 @@ footer {
 
   .contact p {
     text-align: center;
-    margin: 0 15%;
+    max-width: 40%;
   }
 
   .contact h2,
@@ -1173,61 +1127,33 @@ footer {
     margin-right: auto;
   }
 
-  .contact-daco {
-    background-image: url(./img/image-geometry_6.svg);
-    background-repeat: no-repeat;
-  }
-
-  .contact-btn {
-    margin: 3% 60%;
-    font-size: 25px;
-    padding: 7% 0%;
-  }
-
   .griding {
-    display: grid;
-    width: 100%;
-    grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 30%;
   }
 
-  form div {
-    margin: 0;
-  }
-
-  form .message-label {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    width: 100%;
-    margin-left: 24%;
-  }
-
-  form .name-email {
-    width: 22%;
-  }
-
-  .n {
-    position: relative;
-    left: 21%;
-    display: block;
-  }
-
-  .e {
-    position: relative;
-    right: 26%;
-    display: block;
+  form label {
+    margin: 21px 0;
+    max-width: none;
+    width: 45%;
   }
 
   .msg-label {
-    margin: 0% 1%;
+    height: 140px;
+    width: 100%;
   }
 
-  .message-label p {
-    text-align: left;
-    margin: 0 10%;
+  .contact-btn {
+    height: 70px;
+    margin: 40px auto;
+    width: 50%;
+  }
+
+  small {
+    font-size: 22px;
+    margin-top: 15px;
   }
 
   footer {
@@ -1254,5 +1180,12 @@ footer {
     height: 36px;
     justify-content: center;
     width: 36px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  small {
+    margin-top: 0;
+    width: 100%;
   }
 }
