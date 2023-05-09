@@ -61,8 +61,6 @@ Added Linters.yml
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
  Describe how a new developer could make use of your project.
@@ -79,7 +77,7 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to any folder:
 
 using command 
 git clone https://github.com/LizanshMathur/Portfolio.git
